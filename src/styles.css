@@ -1,0 +1,124 @@
+body {
+  background-color: #f7f7f7;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Home Section */
+.home-section {
+  background-color: #007bff;
+  color: white;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.home-section h1 {
+  font-size: 3rem;
+}
+
+.home-section .lead {
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+}
+
+.home-section button {
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border: none;
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.home-section button:hover {
+  background-color: #004080;
+}
+
+/* About Section */
+.about-section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about-section h1 {
+  color: #007bff;
+}
+
+.about-section h2 {
+  color: #007bff;
+  margin-top: 30px;
+}
+
+.about-section p {
+  font-size: 1rem;
+  color: #333;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #ffffff;
+  padding: 50px 20px;
+}
+
+.contact-section h1 {
+  text-align: center;
+  color: #007bff;
+  margin-bottom: 30px;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #f8f9fa;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section .form-label {
+  font-weight: bold;
+}
+
+.contact-section .form-control {
+  margin-bottom: 15px;
+}
+
+.contact-section .btn {
+  width: 100%;
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+  background-color: #f1f1f1;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0;
+}
